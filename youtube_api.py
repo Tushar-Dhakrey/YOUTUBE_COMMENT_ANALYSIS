@@ -3,8 +3,7 @@ import pandas as pd
 
 def fetch_comments(video_id):
 
-    api_key = "AIzaSyCKInlwNWMAY4ACK3hd2Qeh-ycZ2bSx05c"
-
+    api_key = "Your_api_key"
     youtube = build(
         "youtube",
         "v3",
