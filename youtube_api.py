@@ -1,9 +1,11 @@
 from googleapiclient.discovery import build
 import pandas as pd
-
+from dotenv import load_dotenv
+import os
+load_dotenv()
 def fetch_comments(video_id):
 
-    api_key = "Your_api_key"
+    api_key = os.getenv("API_KEY")
     youtube = build(
         "youtube",
         "v3",
