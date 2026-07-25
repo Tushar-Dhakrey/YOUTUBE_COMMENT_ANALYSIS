@@ -2,10 +2,13 @@ streamlit
 pandas
 numpy
 matplotlib
+seaborn
 wordcloud
 emoji
 urlextract
 google-api-python-client
 google-auth
 isodate
-python-dotenv
+nltk
+scikit-learn
+vaderSentiment

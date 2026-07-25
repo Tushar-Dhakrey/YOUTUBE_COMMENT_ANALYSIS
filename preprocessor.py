@@ -3,6 +3,12 @@ import html
 import re
 import string
 from nltk.corpus import stopwords
+import nltk
+
+try:
+    nltk.data.find("corpora/stopwords")
+except LookupError:
+    nltk.download("stopwords")
 def preprocess(df):
 
     # HTML decoding
