@@ -8,3 +8,4 @@ urlextract
 google-api-python-client
 google-auth
 isodate
+python-dotenv
